@@ -3,7 +3,7 @@ kind: Job
 metadata:
   name: skip
   annotations:
-    argocd.argoproj.io/hook: Sync
+    argocd.argoproj.io/hook: Skip
 spec:
   template:
     spec:
